@@ -187,12 +187,12 @@ print("OR operator", val1 or val2)
 a = 30
 b = 20
 
-print("OR operatoe:",(a == b) or (a > b))
+print("OR operator:",(a == b) or (a > b))
 
 a = 40
 b = 10
 
-print("AND aperator:",(a > b) and (a < b) and (a == b))
+print("AND aperator:",(a > b) and (b < a) and (a != b))
 
 
 
