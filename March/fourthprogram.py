@@ -164,6 +164,52 @@ a=6
 b=a**5
 print("ans :",b)
 
+#LOGICAL OPERATORS:(not,and, or)
+a=50
+b=30
+print(not False)
+print(not True)
+ 
+print(not (a > b))
+print(not(a < b))
+
+
+val1= True
+val2= True
+print("and operator:", val1 and val2)
+
+#or operator
+val1 = True
+val2 = False
+print("OR operator", val1 or val2)
+
+# Example
+a = 30
+b = 20
+
+print("OR operatoe:",(a == b) or (a > b))
+
+a = 40
+b = 10
+
+print("AND aperator:",(a > b) and (a < b) and (a == b))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
