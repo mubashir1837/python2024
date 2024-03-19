@@ -196,6 +196,60 @@ print("AND aperator:",(a > b) and (b < a) and (a != b))
 
 
 
+# TYPE CONVERSION:(Conversion)(Casting)
+
+a = int("2") #: "mubashie"this is not valid
+b = 4.5
+
+sum = a + b
+print(sum)
+
+a = 3
+a = str(a)
+print(type(a))
+
+
+
+
+## INPUT
+
+input("enter your name")
+
+name = input("enter your name:")
+print("wellcome",name )
+
+int("23")
+val= int(input("enter some value"))
+print(type(val), val)
+
+
+name = input("enter your name")
+print("welcome", name)
+
+
+
+
+name = input("enter name")
+age = int(input("enter age:"))
+marks = float(input("enter marks"))
+
+print("welcome", name)
+print("welcome", age)
+print("marks", marks)
+
+
+
+
+ 
+
+
+# Practice
+first = int(input("enter first"))
+second =int(input("enter second"))
+
+print("sum=", first + second)
+
+
 
 
 
