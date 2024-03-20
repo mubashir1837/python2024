@@ -18,7 +18,7 @@ print("area",side**2)
 
 #lets practice
 
-a = float(input("enter first :"))
-b = float(input("enter second:"))
+a = int(input("enter first : "))
+b = int(input("enter second: "))
 
-print ("average=",(a+b)/2)
+print ("avg=",(a+b)/2)
