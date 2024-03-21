@@ -174,6 +174,149 @@ print(str.count("o"))
 
 
 
+str = "Hi iam, $I am the $ symbol $99.99"
+print(str.count("$"))
+
+
+age = 21
+if(age >= 18):
+    print("can vote ")
+    print("can drive")
+
+
+
+    name = input("enter your name:")
+    print("length of your name is",len(name))
+
+
+str = input("lenth of str :")
+print("length of your name is", len(str))
+
+
+str = "Hi$ I am the $ "
+print(str.count("$"))
+
+
+
+age = 23
+if(age>=13):
+    print("can vote")
+    print("can drive")
+
+num =5
+
+if(num >2):
+    print("greater than 2")
+if(num > 3):
+    print("greater than 3")
+
+light = "green"
+
+if(light == "red"):
+    print("stop")
+elif(light == "green"):
+    print("go")
+elif(light == "yellow"):
+    print("look")
+
+print("end of code")
+
+if(light == "good"):
+    print("go")
+
+num =6
+if(num>3):
+    print("greater than 3")
+if(num >4):
+    print("greater than 4")
+elif(num > 3):
+    print("greater than 4")
+
+marks = 90
+
+
+if(marks >= 90):
+    grade = "A"
+elif(marks >= 80 and marks < 90):
+    grade ="B"
+elif(marks >=70 and marks <80):
+    grade = "C"
+else:
+    grade ="D"
+print("grade of the student ->", grade)
+
+
+per =55
+if per >= 60 :
+    print("First Division ;")
+elif per>=48:
+    print("Second  Division")
+elif per>35:
+    print("Third Division :")
+else:
+    print("fail")
+
+
+
+age = 21
+if age >= 18 :
+    print("Can apply")
+elif age < 18:
+    print("can not apply")
+elif age ==18:
+    print("can apply")
+else:
+    print("cant apply")
+
+
+
+age =17
+if age > 18:
+    print("mature")
+else:
+    print("unmature")
+
+
+time = 6
+if time < 5:
+    print("come")
+else:
+    print("not")
+
+
+
+a = 45
+if a==34:
+    print("APPLE")
+elif a > 30:
+    print("NOT APPLE")
+elif a < 20:
+    print("BALL")
+else:
+    print("none")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
 
 
 
