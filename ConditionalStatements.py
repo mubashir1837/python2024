@@ -297,6 +297,67 @@ else:
 
 
 
+light ="Yellow"
+if light == "green":
+    print("no")
+elif light!= "yellow":
+    print("No")
+elif light =="yellow":
+    print("Yes")
+else:
+    print("light is broken")
+
+
+age = 12
+if age>= 18:
+    print("You can vote")
+else:
+    print("Can not vote")
+
+
+
+percent = 74
+if percent >= 80:
+    print("A1")
+elif percent <=79:
+    print("B")
+else:
+    print("fail")
+
+
+marks = 78
+if (marks >= 90):
+    grade = "A"
+elif(marks >= 80 and marks < 90):
+    grade = "B"
+elif(marks >= 70 and marks < 80):
+    grade ="C"
+else:
+    grade ="Fail"
+print("Grade of the student :",grade)
+
+
+
+
+
+## Nesting
+age = 98
+if(age >= 18):
+    if(age >= 88):
+        print("Can not drive")
+    else:
+        print("can drive")
+else:
+    print("cannot drive")
+
+
+
+num = 4
+rem = num % 2
+if(rem == 0):
+    print("Even")
+else:
+    print("Odd")
 
 
 
