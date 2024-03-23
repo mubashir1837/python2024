@@ -168,6 +168,13 @@ instagram.pop(3)
 print(instagram)
 
 
+list=[1,2,3,4,5]
+list.__delitem__(4)
+print(list)
+
+
+
+
 
 
 
