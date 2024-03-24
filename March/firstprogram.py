@@ -1,3 +1,7 @@
+print("Hello World")
+print("My name is Mubashir","I study in Class 12")
+print("I am writing srings in python","strings can shortly write as (str)")
+print("Python is my favourite language","I am learning Python")
 print("Hello My name is Mubashir")
 print("I am 21 years old.","I am a student","Lets go to learn Python")
 print(35)
@@ -6,6 +10,22 @@ a = 1
 b = 2
 c = a+b
 print(c)
+
+Adil = 1200
+Atif = 1310
+sum = Adil + Atif
+print(sum)
+
+Google = 2000
+Facebook = 3000
+Ans = Google + Facebook
+print(Ans)
+
+instagram = 4050
+youtube = 3453
+ans = instagram + youtube
+print(ans)
+
 
 name = input("enter name :")
 age = int(input("enter age :"))
@@ -37,3 +57,12 @@ a = str(input("sum:"))
 b =str(input("sum: "))
 print(("sum =",a+b))
 
+
+
+names = input("enter name")
+age =int(input("enter age"))
+marks =float(input("enter marks"))
+
+print("welcome :", names)
+print("age :", age)
+print("marks :", marks)
