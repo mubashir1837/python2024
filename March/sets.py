@@ -1,0 +1,145 @@
+###Sets in python
+
+school = {1 ,2,3,4}
+print(school)
+print(type(school))
+
+college = {3, 4, 5, 6}
+print(college)
+print(type(college))
+
+students = {4, 6, 7, 9}
+print(students)
+print(type(students))
+
+## Empty Set
+empty_set =set()
+print(type(empty_set))
+
+## SET METHODS
+### .add(el) to add an element
+set ={"A", "B", "C","D", "E"}
+set.add("F")
+print(set)
+
+set.add("H")
+print(set)
+
+set.add("I")
+print(set)
+#
+Google ={"g","o", "o", "g"}
+Google.add("l")
+print(Google)
+
+Google.add("e")
+print(Google)
+
+Google.add("s")
+print(Google)
+#
+facebook ={"f","a","c","e"}
+facebook.add("b")
+print(facebook)
+
+facebook.add("o")
+print(facebook)
+
+facebook.add("k")
+print(facebook)
+
+### .remove(el) # to remove element
+instagram ={"i", "n","s","t","a","g", "r", "a","m"}
+instagram.remove("g")
+print(instagram)
+
+instagram.remove("r")
+print(instagram)
+
+instagram.remove("m")
+print(instagram)
+
+instagram.remove("s")
+print(instagram)
+
+instagram.remove("i")
+print(instagram)
+
+instagram.remove("n")
+print(instagram)
+
+instagram.remove("a")
+print(instagram)
+
+
+### .clear() #empties set
+google = {1,2,3,4,5,6,7,8}
+google.clear()
+print(google) #set()
+
+facebook = {5,4,3,2,5,5}
+facebook.clear()
+print(facebook) #set()
+
+instagram = {"i","n","s","t","a","g","r","a","m"}
+instagram.clear()
+print(instagram) # set()
+
+tiktok ={"t","i","k","t","o","k"}
+tiktok.clear()
+print(tiktok) # set()
+
+### .pop() removes a random value
+google ={1,2,3,5,6,7}
+google.pop()
+print(google)
+
+facebooks ={"a", "b","c","d","e"}
+facebooks.pop()
+print(facebooks)
+
+instagrams ={1,4,2,7,8,3}
+instagrams.pop()
+print(instagrams)
+
+
+### .union(set2) combines both set values and return new
+
+set1 ={1,2,3}
+set2 ={2,3,4}
+print(set1.union(set2)) #(1,2,3,4)
+
+books1 = { "Urdu","Eng","Isl"}
+books2 = {"Urdu","Phy","chem","Bio"}
+print(books1.union(books2))
+
+Google1 = {3,5,4,1,2}
+Facebook1 = {9,8,7,6,4,2}
+print(Google1.union(Facebook1))
+
+instagram = {6,5,4,3}
+youtube = {9,8,7,2,3}
+print(instagram.union(youtube))
+
+snapchat ={"a","b","c","d","e"}
+whatsapp ={"a","f","g","h","i"}
+print(snapchat.union(whatsapp))
+
+skype ={"s","h","a","k"}
+twitter ={"h","e","k","l"}
+print(skype.union(twitter))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
