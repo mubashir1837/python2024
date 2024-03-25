@@ -129,14 +129,72 @@ skype ={"s","h","a","k"}
 twitter ={"h","e","k","l"}
 print(skype.union(twitter))
 
+pakistan1 ={"Lahore","Rawalpindi","Karachi","Skardu","Gilgit"}
+pakistan2 ={"Multan","Karachi","Hayderabad","Gujaranwala"}
+print(pakistan1.union(pakistan2))
+
+
+a ={1,4,3,2,5,6}
+b ={6,7,8,9,3}
+print(a.union(b))
+
+
+### set.intersection(set2) cmbines comman values and returns new
+set1 ={6,3,2,4}
+set2 ={3,4,5,6}
+print(set1.intersection(set2))
+
+
+GoogleA ={"G","O","A","L","E"}
+GoogleB ={"G","O","S","Y","E"}
+print(GoogleA.intersection(GoogleB)) ##{"G","E","O"}
+
+
+Facebookf ={2,3,4,5,12}
+Facebookg ={2,3,7,8,9}
+print(Facebookf.intersection(Facebookg))
+
+
+instagramA ={"I","S",'T',"A","G","R","M"}
+instagramB={"I","N","S","T","A"}
+print(instagramA.intersection(instagramB))
+
+schoolA ={1,2,3,4,5,6}
+SchoolB ={3,5,6,7,8}
+print(schoolA.intersection(SchoolB))
+
+
+### Store the following words meanings in python
+
+Dictionary ={
+    "cat" : "a small animal",
+    "table" : ["a piece of wood","list of facts and figure"]
+}
+print(Dictionary)
 
 
 
+### You are given a list of subjects fir students.Assume one class room is required for 1 subject.How many calssrooms are needed by all students.
+subjects ={
+    "python","Java","C++","python","javascript","jave"
+    "python","Java","C++","c"
+}
+print(len(subjects))
+print(subjects)
 
 
+#### Que:
+marks ={}
+x =int(input("enter phy :"))
+marks.update({"phy" : x})
 
+x =int(input("enter math :"))
+marks.update({"math" : x})
 
+x =int(input("enter chem: "))
+marks.update({"chem" : x})
 
+print(marks)
 
 
 
