@@ -42,10 +42,43 @@ while i <= 1000:
     i+=1
 
 
+i = 5
+while i>=1:
+    print(i)
+    i-=1
+
+i = 65
+while i>=1:
+    print(i)
+    i-=1
+
+
+### Print numbers from 1 to 100.
+i = 1
+while i<=100:
+    print(i)
+    i+=1
+
+i = 100
+while i >=1:
+    print(1)
+    i -= 1
+##printnumbers from 100 to 1.
+i = 100
+while i >=1:
+    print(1)
+    i -= 1
+
+
+#3
+    
+i=1
+while i<= 10:
+    print(3*9)
+    i += 1
 
 
 
+nums =(1,2,3,4,5,6,7,8)
 
-
-
-
+x = 36

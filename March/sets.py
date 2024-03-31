@@ -197,6 +197,15 @@ marks.update({"chem" : x})
 print(marks)
 
 
+count=1
+while count <= 5:
+    print("hello")
+    count += 1
+
+count = 2
+while count <=100:
+    print("ATCG")
+    count +=2
 
 
 
