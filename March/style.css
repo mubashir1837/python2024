@@ -1,0 +1,13 @@
+#bg{
+    background-image: url("light\ cicle.png"),url("facebookcom.pngs");
+    background-position: center, right;
+    background-color: rgb(24, 24, 121);
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: 70% 1000px;
+    background-attachment: fixed;
+    background: contain center;
+}
+#border{
+    border-style: double;
+}
