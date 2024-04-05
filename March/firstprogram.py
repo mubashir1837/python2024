@@ -66,3 +66,11 @@ marks =float(input("enter marks"))
 print("welcome :", names)
 print("age :", age)
 print("marks :", marks)
+
+name =input("enter name")
+age =int(input("enter age"))
+marks =float(input("enter marks"))
+
+print("welcome :", name)
+print("age", age)
+print("enter marks", marks)
