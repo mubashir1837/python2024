@@ -163,18 +163,27 @@ print(data3.brands, data3.color, data3.price, data3.length, data3.height)
 
 
 
-        
-class Studen:
-    def _init_(self,name, marks):
-        self.name = name
-        self.marks = marks
-    def get_avg(self):
-        sum = 0
-        for val  in self.marks:
-            sum += val
-        print("hi", self.name, "Your avg score is:", sum/4)  
 
-s1 = Studen("Mubashir", [99, 89, 100, 96])
-s1.get_avg()
+class Person:
+    name =  "MUbashir"
+    occ = "Student"
+
+    def info(self):
+        print(f"{self.name} is a {self.occ}")
 
 
+a = Person()
+print(a.name)
+#change
+a.name = "Ali"
+a.name = "Hussain"
+a.name = "Sadaqat"
+#OR
+a.info()
+b = Person()
+print(b.occ)
+#To change
+b.occ = "Teacher"
+b.occ = "Captain"
+#OR
+b.info()
