@@ -1,4 +1,4 @@
-#Object orient programming.
+#Objects oriented programming.
 class Student:
     name ="arjun"
 
@@ -164,5 +164,17 @@ print(data3.brands, data3.color, data3.price, data3.length, data3.height)
 
 
         
+class Studen:
+    def _init_(self,name, marks):
+        self.name = name
+        self.marks = marks
+    def get_avg(self):
+        sum = 0
+        for val  in self.marks:
+            sum += val
+        print("hi", self.name, "Your avg score is:", sum/4)  
+
+s1 = Studen("Mubashir", [99, 89, 100, 96])
+s1.get_avg()
 
 
