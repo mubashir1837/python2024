@@ -161,6 +161,31 @@ data3 = Bike("new", "blue", "1.5lac", 130, 5)
 print(data3.brands, data3.color, data3.price, data3.length, data3.height)
 
 
+class Car:
+    def __init__(self,price, brand, color, model):
+        self.price = price
+        self.brand = brand
+        self.color = color
+        self.model = model
+car1 =Car("1 crore", "new", "white", "2024")
+print(car1.price, car1.brand, car1.color, car1.model)
+car2 =Car("2 crore", "new", "white", "2024")
+print(car2.price, car2.brand, car2.color, car2.model)
+car3 = Car("1.5 crore", "new", "black", "2025")
+print(car3.price, car3.brand, car3.color, car3.model)
+
+
+class House:
+    def __init__(self, area, type, color, place):
+        self.area = area
+        self.type = type
+        self.color = color
+        self.place = place
+House1 = House("2kanal", "Double", "color", "place")
+print(House1.area, House1.type, House1.color, House1.place)
+
+
+        
 
 
 
@@ -187,3 +212,5 @@ b.occ = "Teacher"
 b.occ = "Captain"
 #OR
 b.info()
+
+
