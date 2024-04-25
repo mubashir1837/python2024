@@ -37,5 +37,34 @@ print(Anil.phy, Anil.chem, Anil.bio, Anil.math, Anil.urdu, Anil.eng)
 Abid =Subjects(43, 100, 65, 67, 45, 78)
 print(Abid.phy, Abid.chem, Abid.bio, Abid.math, Abid.urdu, Abid.eng)
 
+class Prices:
+    def __init__(self, tomato, potato, carrot, mango, apple ):
+        print("prices:")
+        self.tomato = tomato
+        self.potato = potato
+        self.carrot = carrot
+        self.mango = mango
+        self.apple = apple
 
+january = Prices(500, 400, 350, 244, 600)
+print(january.tomato, january.potato, january.carrot, january.mango, january.apple)
+
+feb = Prices(450, 500, 300, 670, 455)
+print(feb.tomato, feb.potato, feb.carrot, feb.mango, feb.apple )
+
+Mar =Prices(677, 455, 433, 800, 566)
+print(Mar.tomato, Mar.potato, Mar.carrot, Mar.mango, Mar.apple)
+
+Apr = Prices(555, 600, 670 ,300, 654)
+print(Apr.tomato, Apr.potato, Apr.carrot, Apr.mango, Apr.apple)
+
+May =Prices(500, 560, 670, 300, 450)
+print(May.tomato, May. potato, May.carrot, May.mango, May.apple)
+
+June =Prices(300, 450, 333, 556, 880)
+print(June.tomato, June.potato, June.carrot, June.mango, June.apple)
+
+July =Prices(600, 456, 300, 670 ,566)
+print(July.tomato, July.potato, July.carrot, July.mango, July.apple)
+        
         
