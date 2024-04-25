@@ -66,5 +66,34 @@ print(June.tomato, June.potato, June.carrot, June.mango, June.apple)
 
 July =Prices(600, 456, 300, 670 ,566)
 print(July.tomato, July.potato, July.carrot, July.mango, July.apple)
-        
-        
+
+
+class Account:
+    def __init__(self, balance, account):
+        self.balance = balance
+        self.account = account
+
+
+    #debit method
+    def debit(self, amount):
+        self.balance -= amount
+        print("Rs.", amount, "was debitted")
+        print("total balance=", self.get_balance())
+
+    #credit method
+    def credit(self, amount):
+        self.balance += amount
+        print("Rs,", amount, "was creditted")
+        print ("total balanace =", self.get_balance())
+
+
+    def get_balance(self):
+        return self.balance
+
+
+
+account1 =Account(1999, 3000 )
+account1.debit(1000)
+account1.credit(50550)
+account1.credit(555000)
+
