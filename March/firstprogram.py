@@ -74,3 +74,48 @@ marks =float(input("enter marks"))
 print("welcome :", name)
 print("age", age)
 print("enter marks", marks)
+
+
+a =56
+b = 3
+print("The value of", a, "+", 3, "is: ", a + b)
+print("The value of", a, "-", 3, "is: ", a - b)
+print("The value of", a, "*", 3, "is: ", a * b)
+print("The value of", a, "/", 3, "is: ", a / b)
+print("The value of", a, "//", 3, "is: ", a // b)
+
+a = "1"
+b = "2"
+print(int(a) + int(b))
+
+c = "4"
+d = "5"
+print(int(c) - int(d))
+
+e = "6"
+f = "7"
+print(int(e) * int(f))
+
+g = "8"
+h = "9"
+print(int(g) / int(h))
+
+i = "10"
+j = "11"
+print(int(i) // int(j))
+
+k = "12"
+l = "13"
+print(int(k) % int(l))
+
+m = "14"
+n = "15"
+print(int(m) ** int(n))
+
+a = input("Enter your name:")
+print("My name is", a)
+
+x = input ("Enter first number:")
+y = input("Enter second number:")
+print(x + y)
+
