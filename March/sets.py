@@ -207,6 +207,347 @@ while count <=100:
     print("ATCG")
     count +=2
 
+a = input("Enter your name: ")
+print("My name is ", a)
+
+b = input("Enter your age:")
+print("My age is ", b)
+
+c = input("Enter you father name:")
+print("My father name is ", c)
+
+d  = input("Enter your mother name:")
+print("My mother name is ", d)
+
+e = input("Enter your brother name:")
+print("My brother name is ", e)
+
+f = input ("Enter your sister name:")
+print("My sister name is ", f)
+
+g = input("Enter your best friend name:")
+print("My best friend name is ", g)
+
+h = input("Enter your favourite food:")
+print("My favourite food is ", h)
+
+i = input("Enter your favourite drink:")
+print("My favourite drink is ", i)
+
+j = input("Enter you favourite colour:")
+print("My favourite colour is ", j)
+
+k  = input("Enter your favourite sport:")
+print("My favourite sport is :", k)
+
+l = input("Enter your favourite subject:")
+print("My favourite subject is :", l)
+
+m = input("Enter your favourite subject:")
+print("My favourite subject is :", m)
+
+n =  input("Enter you favourite subject:")
+print("My favourite subject is :", n)
+
+x = input("Enter first number:")
+y = input("Enter second number:")
+
+print(int(x)+ int(y))
+
+name = "harryuuuuu"
+friend = "rohan"
+anotherfriend = "lovish"
+apple = '''He said,'''
+print("Hello,"+ name)
+print(apple)
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[4])
+print(name[5])
+print(name[6])
+print(name[7])
+
+names = "Mubashir, Mubashir"
+print(len(names))
+fruits = "Mango", "apple", "banana"
+print(len(fruits))
+vegetables = "tomato", "potato", "onion"
+print(len(vegetables))
+
+vehicles = "car", "bike", "cycle"
+print(len(vehicles))
+
+# fruits = "Mango"
+a = "Mango"
+print(a[0:4])
+
+b = "banana"
+print(b[0:4])
+
+c = "apple"
+print(c[0:4])
+
+d = "tomato"
+print(d[0:4])
+
+f = "potato"
+print(f[3:5])
+
+g = "onion"
+print(g[0:5])
+
+h = "car"
+print(h[0:3])
+
+i = "bicycle"
+print(i[0:3])
+
+j = "monkey"
+print(m[1:5])
+
+
+a = "mubashir"
+print(len(a))
+print(a.upper())
+
+b = "MUBASHIR"
+print(len(b))
+print(b.lower())
+
+c = "arslaan"
+print(len(c))
+print(c.upper())
+
+d = "ARSLAAN"
+print(len(d))
+print(d.lower())
+
+e = "eshrat"
+print(len(e))
+print(e.upper())
+
+f = "ESHRAT"
+print(len(f))
+print(f.lower())
+
+g = "maisam"
+print(len(g))
+print(g.upper())
+
+h = "MAISAIM"
+print(len(h))
+print(h.lower())
+
+i = "atif"
+print(len(i))
+print(i.upper())
+
+j = "ATIF"
+print(len(j))
+print(j.lower())
+
+
+y = "!!!!mubashir!!!!!"
+print(i.rstrip)
+
+z = "!!!!!zahid!!!"
+print(z.rstrip)
+
+q = "!!!!!naina!!!!!"
+print(q.rstrip)
+
+
+w = "!!!wahab!!!!!!"
+print(w.rstrip)
+
+
+ahmira  = "amrita"
+print(ahmira.capitalize)
+
+amrita = "ahmira"
+print(amrita.replace("mubashir", "ahmed"))
+
+
+a = "amrita"
+print(a.count("amrita"))
+
+b = "baloon"
+print(b.count("baloon"))
+
+
+
+subjects = {"python", "Java", "C++", "python", "javascript", "java", "python", "Java", "C++", "c"}
+print(len(subjects))
+print(subjects)
+
+# Correction in union() method calls
+set1 = {1, 2, 3}
+set2 = {2, 3, 4}
+print(set1.union(set2))  # {1, 2, 3, 4}
+
+# Correction in storing word meanings in a dictionary
+Dictionary = {
+    "cat": "a small animal",
+    "table": ["a piece of wood", "list of facts and figure"]
+}
+print(Dictionary)
+
+count = 1
+while count <= 5:
+    print("hello")
+    count += 1
+
+count = 2
+while count <= 50:
+    print("ATCG")
+    count += 2
+
+print("My name is ", input("Enter your name: "))
+print("My age is ", input("Enter your age: "))
+print("My father name is ", input("Enter your father name: "))
+print("My mother name is ", input("Enter your mother name: "))
+print("My brother name is ", input("Enter your brother name: "))
+print("My sister name is ", input("Enter your sister name: "))
+print("My best friend name is ", input("Enter your best friend name: "))
+print("My favourite food is ", input("Enter your favourite food: "))
+print("My favourite drink is ", input("Enter your favourite drink: "))
+print("My favourite colour is ", input("Enter your favourite colour: "))
+print("My favourite sport is :", input("Enter your favourite sport: "))
+print("My favourite subject is :", input("Enter your favourite subject: "))
+print("My favourite subject is :", input("Enter your favourite subject: "))
+print("My favourite subject is :", input("Enter your favourite subject: "))
+
+x = input("Enter first number:")
+y = input("Enter second number:")
+print(int(x) + int(y))
+
+name = "harryuuuuu"
+friend = "rohan"
+anotherfriend = "lovish"
+apple = '''He said,'''
+print("Hello," + name)
+print(apple)
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[4])
+print(name[5])
+print(name[6])
+print(name[7])
+
+names = "Mubashir, Mubashir"
+print(len(names))
+fruits = "Mango", "apple", "banana"
+print(len(fruits))
+vegetables = "tomato", "potato", "onion"
+print(len(vegetables))
+
+vehicles = "car", "bike", "cycle"
+print(len(vehicles))
+
+a = "Mango"
+print(a[0:4])
+
+b = "banana"
+print(b[0:4])
+
+c = "apple"
+print(c[0:4])
+
+d = "tomato"
+print(d[0:4])
+
+f = "potato"
+print(f[3:5])
+
+g = "onion"
+print(g[0:5])
+
+h = "car"
+print(h[0:3])
+
+i = "bicycle"
+print(i[0:3])
+
+j = "monkey"
+print(j[1:5])
+
+a = "mubashir"
+print(len(a))
+print(a.upper())
+
+b = "MUBASHIR"
+print(len(b))
+print(b.lower())
+
+c = "arslaan"
+print(len(c))
+print(c.upper())
+
+d = "ARSLAAN"
+print(len(d))
+print(d.lower())
+
+e = "eshrat"
+print(len(e))
+print(e.upper())
+
+f = "ESHRAT"
+print(len(f))
+print(f.lower())
+
+g = "maisam"
+print(len(g))
+print(g.upper())
+
+h = "MAISAIM"
+print(len(h))
+print(h.lower())
+
+i = "atif"
+print(len(i))
+print(i.upper())
+
+j = "ATIF"
+print(len(j))
+print(j.lower())
+
+y = "!!!!mubashir!!!!!"
+print(y.rstrip())
+
+z = "!!!!!zahid!!!"
+print(z.rstrip())
+
+q = "!!!!!naina!!!!!"
+print(q.rstrip())
+
+w = "!!!wahab!!!!!!"
+print(w.rstrip())
+
+ahmira = "amrita"
+print(ahmira.capitalize())
+
+amrita = "ahmira"
+print(amrita.replace("mubashir", "ahmed"))
+
+a = "amrita"
+print(a.count("amrita"))
+
+b = "baloon"
+print(b.count("baloon"))
+
+
+
+
+
+      
+
+
+
+
 
 
 
